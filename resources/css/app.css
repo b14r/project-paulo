@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+.main-content-wrapper
+{
+    @apply p-8 border-layout bg-white mb-8;
+}
+
+.border-layout
+{
+    @apply border rounded-layout border-5 border-black;
+}
+
+select
+{
+    @apply outline-none w-full py-2 rounded-lg mb-4 text-center text-2xl font-logo tracking-widest
+}
+
+h1
+{
+    @apply font-logo text-3xl font-semibold mb-4 text-center text-gray-800 tracking-widest;
+}
+
+th,
+td
+{
+    @apply w-48 text-start;
+}
+
+tr,
+td
+{
+    @apply flex space-x-24 space-y-2 justify-start;
+}
+
+table.cart
+{
+    @apply font-logo text-xl uppercase flex justify-center;
+}
+
+table.stock
+{
+    @apply font-logo text-xl uppercase flex justify-center;
+}
+
+table.cancel
+{
+    @apply font-logo text-lg uppercase flex justify-center;
+}
+
+table.end-sale
+{
+    @apply font-logo text-lg uppercase flex justify-center;
+}
+
+.dashboard-icons
+{
+    @apply h-56 mx-auto;
+}
+
+a.dashboard
+{
+    @apply font-logo uppercase text-4xl bg-gray-300 rounded-xl text-center h-icon p-4 hover:bg-gray-200;
+}
+
+a p
+{
+    @apply py-2;
+}
+
+header h2
+{
+    @apply font-semibold text-xl font-logo text-gray-800 tracking-widest;
+}
+
+@tailwind utilities;
